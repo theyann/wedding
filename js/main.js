@@ -78,7 +78,7 @@ function updatePageContent() {
     
     updateSection('gift', translations.sectionGift);
     updateFAQSection();
-    updateAddresses();
+    updateAllAddresses();
     updateRSVPButton();
     updateGiftButton();
     updateScheduleContent();
