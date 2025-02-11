@@ -1,0 +1,66 @@
+{
+    "sectionTitle": {
+        "title": "Y + J = Love And Fiesta",
+        "message": "It is with immense joy that we invite you to our wedding. We look forward to seeing you there and sharing this unforgettable moment together. Below you will find some information that might be useful to prepare for your attendance."
+    },
+    "sectionRSVP": {
+        "title": "Confirm your attendance",
+        "message": "To help us organize everything in the best way possible, please confirm your attendance by filling out the form below.",
+        "button": "RSVP"
+    },
+    "sectionCeremony": {
+        "title": "The Ceremony",
+        "message": "The ceremony will take place at the Hélécine town hall starting at 2:00 PM. (see address below)"
+    },
+    "sectionWelcomeDrink": {
+        "title": "Welcome Drink",
+        "message": "After the ceremony, a welcome drink will be served at La Ferme du Renard (address below) starting at 3:00 PM."
+    },
+    "sectionFestivities": {
+        "title": "The Festivities",
+        "message": "After the ceremony, join us at La Ferme du Renard (address below) from 3:00 PM starting with the welcome drink. This will of course be followed by a lovely dinner and a fun-filled party."
+    },
+    "sectionParty": {
+        "title": "The Party",
+        "message": "The fun-filled party will take place at La Ferme du Renard (address below) starting at 8:00 PM."
+    },
+    "sectionGift": {
+        "title": "The Gift",
+        "messageParagraph1": "For us, your presence and this celebration will be our greatest gift. However, we understand that some of you may still want to spoil us, and although it's not at all necessary, we thank you!",
+        "messageParagraph2": "We have set up a small wedding registry on Kadolog, the link is just below if you wish.",
+        "button": "Wedding Registry",
+        "url": "https://www.kadolog.com/fr/list/liste-de-mariage-de-yannick-julie-1652951"
+    },
+    "sectionFAQ": {
+        "title": "Frequently Asked Questions",
+        "QandA": [
+            {
+                "q": "Where can I park?",
+                "a1": "For the ceremony, there is parking at the town hall and the school next door with enough space for everyone.",
+                "a2": "After the ceremony, La Ferme du Renard also has a parking section that will allow you to park without any worries."
+            },
+            {
+                "q": "Are there accommodations/guesthouses nearby? I don't want to drive back after the party",
+                "a1": "Yes, there are several options. Here's a link to Booking.com showing a list of availabilities in the area.",
+                "button": "Accommodation Options",
+                "url": "https://www.booking.com/searchresults.fr.html?ss=Helecine&ssne=Helecine&ssne_untouched=Helecine&efdco=1&label=gen173nr-1BCAEoggI46AdIM1gEaBWIAQGYAQ24AQfIAQzYAQHoAQGIAgGoAgO4AvXWq70GwAIB0gIkYTc2ZjcyYWMtZmE4OC00YmRkLWI1NzctNWY3YmI4MzM1ZDlh2AIF4AIB&sid=e55e904692400ae3513691d0b5a470c3&aid=304142&lang=fr&sb=1&src_elem=sb&src=index&dest_id=900056129&dest_type=city&checkin=2025-08-30&checkout=2025-08-31&group_adults=1&no_rooms=1&group_children=0"
+            },
+            {
+                "q": "Are children welcome?",
+                "a1": "Of course, children are welcome."
+            },
+            {
+                "q": "Can we take photos?",
+                "a": "Absolutely, you can take photos and we will set up something so that everyone can share them if they want."
+            },
+            {
+                "q": "Will there be a vegetarian menu?",
+                "a": "We will do our best to accommodate everyone. Please fill out the RSVP form and let us know about your allergies/dietary preferences to allow us to arrange everything."
+            },
+            {
+                "q": "Can I bring a plus one?",
+                "a": "Please fill out the RSVP form to help us organize everything, we have planned spaces for everyone!"
+            }
+        ]  
+    }
+}

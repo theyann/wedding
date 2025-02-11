@@ -1,0 +1,35 @@
+{
+  "addresses": [
+    {
+      "type": "venue",
+      "name": "La Ferme du Renard",
+      "address": "Rue Pierre Renard 10, 1350 Orp-Jauche, Belgique"
+    },
+    {
+      "type": "ceremony",
+      "name": "Commune d'Hélécine",
+      "address": "Rue le Brouc 2, 1357 Hélécine, Belgique"
+    }
+  ],
+  "contact": {
+    "phone": "+32496476177",
+    "email": "mariage@lemin.be"
+  },
+  "urls": [
+    {
+      "type": "gift",
+      "url": "https://www.kadolog.com/fr/list/liste-de-mariage-de-yannick-julie-1652951"
+    }
+  ],
+  "schedule": {
+    "ceremony": "14h00",
+    "welcome-drink": "15h00",
+    "party": "20h00"
+  },
+  "RSVP": {
+    "urlTypeA": "https://docs.google.com/forms/d/e/1FAIpQLSeUeQaR_gYf0IhTchjGETtlMoueRnXb1JimlaKycD-bB95-YQ/viewform?usp=header",
+    "urlTypeB": "https://docs.google.com/forms/d/e/1FAIpQLSf6N7ia9zjOVySZCGzFm79VhQ0TQTXaJ8L_JV8WZsTd2r4gCw/viewform?usp=header",
+    "urlTypeC": "https://docs.google.com/forms/d/e/1FAIpQLSeUeQaR_gYf0IhTchjGETtlMoueRnXb1JimlaKycD-bB95-YQ/viewform?usp=header",
+    "respondBefore": "15 May 2025"
+  }
+}

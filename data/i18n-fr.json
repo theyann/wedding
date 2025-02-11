@@ -1,0 +1,66 @@
+{
+    "sectionTitle": {
+        "title": "Y + J = Love And Fiesta",
+        "message": "C\\’est avec une immense joie que nous vous convions à notre mariage. Nous nous réjouissons de vous y voir et de partager ensemble ce moment inoubliable. Vous trouverez ci-dessous quelques informations qui pourraient vous être utiles pour préparer votre venue."
+    },
+    "sectionRSVP": {
+        "title": "Confirmez votre présence",
+        "message": "Afin de nous permettre de nous organiser au mieux, merci de bien vouloir confirmer votre présence en répondant au formulaire ci dessous.",
+        "button": "RSVP"
+    },
+    "sectionCeremony": {
+        "title": "La cérémonie",
+        "message": "La cérémonie se déroulera à la maison communale d'Hélécine à partir de 14h. (voir addresse ci-dessous)"
+    },
+    "sectionWelcomeDrink": {
+        "title": "Vin d'honneur",
+        "message": "Après la cérémonie, un vin d'honneur sera servi à la Ferme du Renard (addresse ci-dessous) à partir de 15h."
+    },
+    "sectionFestivities": {
+        "title": "Les Festivités",
+        "message": "Après la cérémonie, rendez-vous à la Ferme du Renard (addresse ci-dessous) à partir de 15h pour commencer avec le vin d'honneur. Il sera bien entendu suivi d'un dîner bien sympatique et d'une petite soirée déjantée."
+    },
+    "sectionParty": {
+        "title": "La fête",
+        "message": "La soirée déjantée se déroulera à la Ferme du Renard (addresse ci-dessous) à partir de 20h."
+    },
+    "sectionGift": {
+        "title": "Le cadeau",
+        "messageParagraph1": "En ce qui nous concerne, votre présence et cette célébration sera notre plus beau cadeau. Néanmoins nous nous rendons bien compte que certains d'entre vous voudront tout de même nous gâter, et bien que cela ne soit pas du tout nécessaire, nous vous en remercion !",
+        "messageParagraph2": "Nous avons donc mis en place une petite liste de mariage sur Kadolog, le lien est juste en dessous si vous le souhaitez.",
+        "button": "Liste de Mariage",
+        "url": "https://www.kadolog.com/fr/list/liste-de-mariage-de-yannick-julie-1652951"
+    },
+    "sectionFAQ": {
+        "title": "Foire aux questions",
+        "QandA": [
+            {
+                "q": "Où puis-je me garer ?",
+                "a1": "Pour la cérémonie, il y a le parking de la maison communale et de l'école à côté contenant suffisamment de place pour tout le monde.",
+                "a2": "Après la cérémonie, la Ferme du Renard propose également une section parking qui vous permettra de vous garer sans soucis."
+            },
+            {
+                "q": "Y a-t-il des accomodations / gîtes dans le coin, je n'ai pas envie de reprendre la route après la soirée",
+                "a1": "Oui il existe quelques options, voici un lien vers le site Booking.com reprenant une liste de disponibilités dans les allentours.",
+                "button": "Options de locations",
+                "url": "https://www.booking.com/searchresults.fr.html?ss=Helecine&ssne=Helecine&ssne_untouched=Helecine&efdco=1&label=gen173nr-1BCAEoggI46AdIM1gEaBWIAQGYAQ24AQfIAQzYAQHoAQGIAgGoAgO4AvXWq70GwAIB0gIkYTc2ZjcyYWMtZmE4OC00YmRkLWI1NzctNWY3YmI4MzM1ZDlh2AIF4AIB&sid=e55e904692400ae3513691d0b5a470c3&aid=304142&lang=fr&sb=1&src_elem=sb&src=index&dest_id=900056129&dest_type=city&checkin=2025-08-30&checkout=2025-08-31&group_adults=1&no_rooms=1&group_children=0"
+            },
+            {
+                "q": "Les enfants sont-ils les bienvenus ?",
+                "a1": "Bien entendu, les enfants sont les bienvenus."
+            },
+            {
+                "q": "Peut-on prendre des photos ?",
+                "a": "Absolument, vous pouvez prendre des photos et nous mettrons quelque chose en place pour que tout le monde puisse les partager si ils en ont envie."
+            },
+            {
+                "q": "Y aura-t-il un menu végétarien ?",
+                "a": "Nous ferons tout notre possible pour accomoder tout le monde. Veuillez remplir le formulaire de RSVP et nous faire parvenir vos allergies / préférences alimentaires afin de nous permettre de mettre tout cela en place."
+            },
+            {
+                "q": "Puis-je venir accompagné(e) ?",
+                "a": "Veuillez remplir le formulaire de RSVP afin de nous permettre de nous organiser au mieux, a priori nous avons prévu des places pour tout le monde !"
+            }
+        ]  
+    }
+}

@@ -1,0 +1,50 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Node (in case you add npm packages later)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Cache directories
+.cache/
+.sass-cache/
+
+# Local development files
+local/
