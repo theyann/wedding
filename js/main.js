@@ -184,39 +184,59 @@ function updateFAQSection() {
     });
 }
 
-function updateAddresses() {
-    const addressesSection = document.getElementById('addresses');
-    if (!addressesSection) return;
-    
-    const addressContent = addressesSection.querySelector('.address-content');
-    addressContent.innerHTML = '';
-    
+function createAddressBlock(addr) {
+    const card = document.createElement('div');
+    card.className = 'address-card';
+
+    const title = document.createElement('h3');
+    title.textContent = addr.name;
+
+    const address = document.createElement('p');
+    address.textContent = addr.address;
+
+    const mapLink = document.createElement('a');
+    mapLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr.address)}`;
+    mapLink.className = 'button';
+    mapLink.textContent = currentLanguage === 'fr' ? 'Ouvrir dans Google Maps' : 'Open in Google Maps';
+    mapLink.target = '_blank';
+
+    card.appendChild(title);
+    card.appendChild(address);
+    card.appendChild(mapLink);
+
+    return card;
+}
+
+function updateSectionAddress(sectionId, addressType) {
+    const section = document.getElementById(sectionId);
+    if (!section) return;
+
     const guestType = determineGuestType();
-    const addresses = guestType === 'C' 
-        ? commonInfo.addresses.filter(a => a.type === 'venue')
-        : commonInfo.addresses;
-    
-    addresses.forEach(addr => {
-        const card = document.createElement('div');
-        card.className = 'address-card';
-        
-        const title = document.createElement('h3');
-        title.textContent = addr.name;
-        
-        const address = document.createElement('p');
-        address.textContent = addr.address;
-        
-        const mapLink = document.createElement('a');
-        mapLink.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr.address)}`;
-        mapLink.className = 'button';
-        mapLink.textContent = currentLanguage === 'fr' ? 'Ouvrir dans Google Maps' : 'Open in Google Maps';
-        mapLink.target = '_blank';
-        
-        card.appendChild(title);
-        card.appendChild(address);
-        card.appendChild(mapLink);
-        addressContent.appendChild(card);
-    });
+    const addresses = commonInfo.addresses;
+
+    const address = addresses.find(addr => addr.type === addressType);
+    if (!address) return;
+
+    // Create or get address block container
+    let addressBlock = section.querySelector('.address-block');
+    if (!addressBlock) {
+        addressBlock = document.createElement('div');
+        addressBlock.className = 'address-block';
+        section.appendChild(addressBlock);
+    }
+
+    addressBlock.innerHTML = '';
+    addressBlock.appendChild(createAddressBlock(address));
+}
+
+function updateAllAddresses() {
+    // Update ceremony address
+    updateSectionAddress('ceremony', 'ceremony');
+
+    // Update venue address for welcome-drink and festivities
+    updateSectionAddress('welcome-drink', 'venue');
+    // Add this line if you have a festivities section
+    // updateSectionAddress('festivities', 'venue');
 }
 
 // Guest type determination
