@@ -19,8 +19,8 @@ const setQueryParam = (param, value) => {
 async function loadTranslations() {
     try {
         const [translationsResponse, commonInfoResponse] = await Promise.all([
-            fetch(`/data/i18n-${currentLanguage}.json`),
-            fetch('/data/commonInfo.json')
+            fetch(`../data/i18n-${currentLanguage}.json`),
+            fetch('../data/commonInfo.json')
         ]);
         
         window.translations = await translationsResponse.json();
