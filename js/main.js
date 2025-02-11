@@ -237,6 +237,8 @@ function updateAllAddresses() {
 
     // Add this line if you have a festivities section
     updateSectionAddress('festivities', 'venue');
+
+    updateSectionAddress('party', 'venue');
 }
 
 // Guest type determination
