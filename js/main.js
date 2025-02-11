@@ -211,7 +211,6 @@ function updateSectionAddress(sectionId, addressType) {
     const section = document.getElementById(sectionId);
     if (!section) return;
 
-    const guestType = determineGuestType();
     const addresses = commonInfo.addresses;
 
     const address = addresses.find(addr => addr.type === addressType);
@@ -235,8 +234,9 @@ function updateAllAddresses() {
 
     // Update venue address for welcome-drink and festivities
     updateSectionAddress('welcome-drink', 'venue');
+
     // Add this line if you have a festivities section
-    // updateSectionAddress('festivities', 'venue');
+    updateSectionAddress('festivities', 'venue');
 }
 
 // Guest type determination
